@@ -1,96 +1,105 @@
 <h1 align="center">
   <br>
-  <a href="https://fossbilling.org/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FOSSBilling/fossbilling.org/main/public/img/wordmark-white.png">
-      <img alt="FOSSBilling logo" src="https://raw.githubusercontent.com/FOSSBilling/fossbilling.org/main/public/img/wordmark-black.png" height="100">
-    </picture>
+  <a href="https://stellaurus.com/vorealis">
+    <img alt="Vorealis logo" src="https://stellaurus.com/vorealis/logo.png" height="100">
   </a>
   <br>
+  Vorealis
+  <br>
+  <sub>Smart. Scalable. Streamlined.</sub>
 </h1>
 
 <div align="center">
 
-<a href="https://fossbilling.org/downloads/"><img src="https://raw.githubusercontent.com/FOSSBilling/fossbilling.org/main/public/img/gh-download-button.png" alt="Download button" width="400"/></a>
-
-[![CI](https://github.com/FOSSBilling/FOSSBilling/actions/workflows/ci.yml/badge.svg)](https://github.com/FOSSBilling/FOSSBilling/actions/workflows/ci.yml)
-[![Download Latest](https://img.shields.io/github/downloads/FOSSBilling/FOSSBilling/total)](https://github.com/FOSSBilling/FOSSBilling/releases/latest)
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
-[![Discord](https://img.shields.io/discord/747432407757488179?color=%237289FA&logo=discord&logoColor=%23FFF)](https://fossbilling.org/discord)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md) 
-[![CodeFactor](https://www.codefactor.io/repository/github/FOSSBilling/FOSSBilling/badge)](https://www.codefactor.io/repository/github/fossbilling/fossbilling)
-[![Financial Contributors](https://opencollective.com/FOSSBilling/tiers/badge.svg?color=brightgreen)](https://opencollective.com/fossbilling)
-[![Crowdin](https://badges.crowdin.net/e/c70c78b4ab1e71424ce53dcf6bca9b12/localized.svg)](https://fossbilling.crowdin.com/FOSSBilling)
+[![CI](https://github.com/stellaurus/vorealis/actions/workflows/ci.yml/badge.svg)](https://github.com/stellaurus/vorealis/actions/workflows/ci.yml)
+[![Latest Release](https://img.shields.io/github/v/release/stellaurus/vorealis?label=Release)](https://github.com/stellaurus/vorealis/releases)
+[![License](https://img.shields.io/github/license/stellaurus/vorealis)](LICENSE)
+[![Discord](https://img.shields.io/discord/747432407757488179?color=%237289FA&logo=discord&logoColor=%23FFF)](https://discord.gg/yourserver)
+[![CodeFactor](https://www.codefactor.io/repository/github/stellaurus/vorealis/badge)](https://www.codefactor.io/repository/github/stellaurus/vorealis)
 
 </div>
 
-> [!WARNING]
-> FOSSBilling is under active development but is currently very much beta software. This means that there may be stability or security issues and it is not yet recommended for use in active production environments!
+---
 
-> [!IMPORTANT]
-> Please be aware that we are not currently strictly following SemVer, and there may be breaking changes at any time. Be careful and make sure you read [changelogs](https://fossbilling.org/docs/changelog) before updates!
+## Welcome to Vorealis
 
-**FOSSBilling** is a free open source, billing and client management solution. Whatever the size of your online services business, whether a startup or established, FOSSBilling can help you to automate your invoicing, incoming payments, and client management and communication.
+**Vorealis** is a modern control center for hosting operations — reimagined with enterprise-grade capabilities, professional polish, and future-facing scalability.
 
-If you run a web hosting business and are looking for an open-source alternative for billing and client management, then FOSSBilling is the answer. Although it is mostly used as a solution for hosting businesses, there is no reason why you can't use FOSSBilling for any other kind of online business, like digital downloads.
+While **Vorealis** proudly builds upon the solid foundation of [FOSSBilling](https://fossbilling.org), this project is on a distinct path. With gratitude to the original authors, we aim to evolve the platform into something that meets the expectations of high-volume infrastructure providers, enterprise operations, and ambitious developers looking for a smarter way to manage their hosting businesses.
 
-FOSSBilling is designed to be extensible and to integrate easily with your favorite server management software and payment gateways.
+---
 
-📥 This is self-hosted software that is free for anyone to install — All you need is a some basic knowledge, a web server, running PHP and a MySQL database. For more details, check the [requirements](#requirements) section.
+## ✨ Key Features
 
-## Contents
+- 🔧 **Full Client Management Suite**
+- 💳 Invoicing & Automated Billing Tools
+- 🧩 Modular Architecture for Easy Extensions
+- 🌍 Multi-language Support (Crowdin-ready)
+- ⚙️ API for Seamless Integrations
+- 🚀 Built with Scalability & Security in Mind
 
-- [Contents](#contents)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Star History](#star-history)
-- [Licensing](#licensing)
-- [Links](#links)
+---
 
-## Requirements
+## 🚀 Goals
 
-To find the most up-to-date system requirements for FOSSBilling, please go to the [system requirements](https://fossbilling.org/docs/getting-started/requirements) on our website.
+Vorealis is focused on:
 
-## Installation
+- **Enterprise-grade stability** for production use
+- **Enhanced performance & usability**
+- **First-class support for modern infrastructure**
+- **Robust developer experience** and extensibility
+- **Modular plugin ecosystem** and future integrations
+- **Clean UI/UX and professional branding**
 
-For instructions on installing FOSSBilling, check out our [getting started guide](https://fossbilling.org/docs/getting-started).  
+---
 
-## Contributing
+## 🛠️ Installation
 
-🖥️ Welcome, fellow developer! 🙂
+Vorealis is self-hosted PHP software. You’ll need a modern web server with:
 
-First of all, thank you for your interest, and for taking your time to contribute to FOSSBilling.
+- PHP 8.1 or newer
+- MySQL/MariaDB
+- Apache or Nginx (with rewrite support)
+- Composer
 
-FOSSBilling is undergoing a revival and major code update. We are making steps forward day by day but there is still a lot of work to do, and we are happy to welcome new contributors. 
+📚 [View the full installation guide →](https://stellaurus.com/vorealis/docs/install)
 
-We have a set of guidelines for those wishing to contribute to FOSSBilling, and we encourage you to take a look at them here: **[contributors' guidelines](https://github.com/FOSSBilling/FOSSBilling/blob/main/CONTRIBUTING.md)**.
+---
 
-Your [pull requests](https://github.com/FOSSBilling/FOSSBilling/pulls) will be highly welcomed. If you're looking for something to start with, you can check the [open issues](https://github.com/FOSSBilling/FOSSBilling/issues) on our GitHub repository.
+## 🤝 Contributing
 
-## Star History
+We welcome developers and contributors! Whether you're fixing bugs, writing docs, or building plugins — you're invited.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=FOSSBilling/FOSSBilling&type=Date)](https://star-history.com/#FOSSBilling/FOSSBilling&Date)
+👉 Start here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
-**Got questions? Found a bug? Ideas for improvements?**
+---
 
-Don't hesitate to create an [issue](https://github.com/FOSSBilling/FOSSBilling/issues), start a discussion in the [FOSSBilling Forum](https://forum.fossbilling.org/), or join us on [Discord](https://fossbilling.org/discord) to say hi.
+## 📈 Star History
 
-⭐ Not a developer? Feel free to help by starring the repository. It helps us catch the attention of new developers who'd like to contribute.
+[![Star History Chart](https://api.star-history.com/svg?repos=stellaurus/vorealis&type=Date)](https://star-history.com/#stellaurus/vorealis&Date)
 
-## Licensing
+---
 
-FOSSBilling is open source software and is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/FOSSBilling/blob/main/LICENSE) for the full license terms.
+## 💡 Special Thanks
 
-This product includes the following third party work:
+We express sincere gratitude to the creators and maintainers of **FOSSBilling** for laying a strong groundwork. Vorealis originates as a fork, but our journey is to craft something distinct — something designed for scale, engineered for control, and built to serve high-demand environments.
 
-- Open Source Iconography by [Pictogrammers](https://pictogrammers.com/) licensed under the [Pictogrammers Free License](https://pictogrammers.com/docs/general/license/).
+---
 
-## Links
+## 📄 License
 
-- [Website](https://www.fossbilling.org/)
-- [Documentation](https://fossbilling.org/docs)
-- [Forum](https://forum.fossbilling.org)
-- [Twitter](https://twitter.com/FOSSBilling)
-- [Discord](https://fossbilling.org/discord)
+Vorealis is open-source under the [Apache 2.0 License](LICENSE).
+
+---
+
+## 🔗 Useful Links
+
+- 🌐 [Official Site](https://stellaurus.com/vorealis)
+- 📘 [Documentation](https://stellaurus.com/vorealis/docs)
+- 💬 [Community Chat](https://discord.gg/yourserver)
+- 🛠️ [Issue Tracker](https://github.com/stellaurus/vorealis/issues)
+- 🧭 [Roadmap](https://stellaurus.com/vorealis/roadmap)
+
+---
+
+> Vorealis is developed by [Stellaurus](https://stellaurus.com) — a future-focused technology company building solutions for the next generation of cloud and hosting businesses.
